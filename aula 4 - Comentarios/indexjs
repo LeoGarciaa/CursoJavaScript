@@ -1,0 +1,13 @@
+// Escrever comentario
+console.log('Olá Mundo')
+console.log('Linha 1')
+//console.log('Linha 365') Será Ignorado
+console.log('Linha 2')
+/*
+    Bloco de Comentário
+console.log('Linha 3324')
+console.log('Linha 23')
+console.log('Linha 134')
+*/
+console.log('Linha 3')
+
