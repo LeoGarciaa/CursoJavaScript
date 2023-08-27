@@ -1,0 +1,18 @@
+// Let tem escopo de bloco {...}
+// Var tem apenas escopo de função
+const   verdadeiro = true;
+let nome = 'Leonardo'
+var nome2 = 'Leonardo'
+
+if (verdadeiro){
+    let nome = 'Augusto';
+    var nome2 = 'Augusto';
+
+    if(verdadeiro){
+        let nome = 'Leonardo Augusto';
+        var nome2 = 'Leonardo  Augusto';
+       
+    }
+} 
+
+console.log(nome, nome2); //nome busca valor do escopo global // nome2 busca da última declaração;
